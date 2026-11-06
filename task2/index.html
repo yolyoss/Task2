@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Events</title>
+</head>
+<body>
+    <h1>كيف تتعامل المواقع مع تفاعلات المستخدم باستخدام JavaScript</h1>
+    <p>اسم الطالب: يوليوس سامي ميخائيل</p>
+    <p>الرقم الجامعي: 2501633</p>
+
+    <h2>المقدمة</h2>
+    <p>تستخدم المواقع JavaScript للتفاعل مع المستخدم من خلال الأحداث (Events) مثل النقر والكتابة والتمرير.</p>
+
+    <h2>عرض الموضوع</h2>
+    <h3>1- مفهوم الأحداث وDOM</h3>
+    <p>الحدث هو تفاعل يحدث داخل المتصفح، ويساعد DOM لغة JavaScript على الوصول إلى عناصر الصفحة والتعامل معها.</p>
+
+    <h3>2- Event Listeners</h3>
+    <p>تستخدم addEventListener لربط الأحداث بالعناصر وتنفيذ الأوامر عند حدوثها.</p>
+    <pre>button.addEventListener('click', function() { alert('Hello'); });</pre>
+
+    <h3>3- Event Object وانتشار الأحداث</h3>
+    <p>يوفر Event Object معلومات عن الحدث، ويمر الحدث بمراحل Capturing وTarget وBubbling.</p>
+
+    <h3>4- Event Delegation وEvent Loop</h3>
+    <p>يساعد Event Delegation على إدارة أحداث عدة عناصر، بينما تنظم Event Loop تنفيذ العمليات غير المتزامنة.</p>
+
+    <h3>5- تحسين الأداء وإمكانية الوصول</h3>
+    <p>تستخدم Debounce وThrottle لتقليل تكرار الأحداث، مع دعم لوحة المفاتيح وقارئات الشاشة.</p>
+
+    <img src="javascript-comparison.jpg" alt="JavaScript Events" width="300">
+
+    <h2>جدول أنواع الأحداث</h2>
+    <table border="1">
+        <tr><th>الحدث</th><th>وظيفته</th></tr>
+        <tr><td>Click</td><td>النقر</td></tr>
+        <tr><td>Keydown</td><td>ضغط مفتاح</td></tr>
+        <tr><td>Submit</td><td>إرسال نموذج</td></tr>
+    </table>
+
+    <h2>الخاتمة</h2>
+    <p>يساعد فهم نظام الأحداث على إنشاء مواقع تفاعلية وسريعة وسهلة الاستخدام.</p>
+
+    <h2>المراجع</h2>
+    <ul>
+        <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+        <li><a href="https://javascript.info/events">JavaScript.info</a></li>
+        <li><a href="https://dom.spec.whatwg.org/">WHATWG DOM Standard</a></li>
+    </ul>
+</body>
+</html>
